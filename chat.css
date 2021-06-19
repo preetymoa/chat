@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body, html{
+    background-color: #1a858df8;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: capitalize;
+}
+.holder{
+    width: 700px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #1a858df8;
+}
+form input.up{
+    width: 600px;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form input.button{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #1a858df8 ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+h5{
+    background-color: rgb(252, 73, 73);
+    font-size: 30px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.feedback{
+    display: none;
+}
+.show{
+    display: block;
+}
+.message-content{
+    color: rgb(3, 102, 92);
+}
